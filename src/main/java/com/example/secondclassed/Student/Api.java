@@ -21,7 +21,7 @@ public class Api {
 public List<student> getStudent(){
     return studentservice.getStudent();
 }
-    @Autowired
+    @Autowired //dependency is injected
     public Api(StudentService studentservice) {              //constructor
        this.studentservice = studentservice;
     }

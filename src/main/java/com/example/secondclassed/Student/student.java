@@ -2,7 +2,7 @@ package com.example.secondclassed.Student;
 
 import java.time.LocalDate;
 
-public class student {
+public class student {       //modal class
     private Long id;
     private String name;
     private LocalDate dob;
@@ -21,9 +21,7 @@ public class student {
         Department = department;
     }
 
-    public Long getId() {
-        return id;
-    }
+    public Long getId() {return id;}
 
     public String getName() {
         return name;
